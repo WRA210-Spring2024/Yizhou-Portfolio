@@ -1,13 +1,30 @@
-h1 {
-    font-family: "Inter";
-    font-size: 2.0rem;
-    color:black
-  }
+
+.nav-link {
+  font-family: "DM Sans";
+  font-size: 1rem; 
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nav-link {
+  letter-spacing: 0.3rem; 
+  margin: 1.2rem;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  width: 1000%;
+}
 
 li {
   color:#292929
 }
 
+.nav-link.active {
+  color: black; 
+}
 
-
-
+.nav-link.inactive {
+  color: #6c757d; 
+}
