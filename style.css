@@ -151,3 +151,63 @@ h2.content {
 
 /*------------------------------------------------------Carousel-----------------------------------------------------------------*/
 
+/*------------------------------------------------------Overlay-----------------------------------------------------------------*/
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.pic-container {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image to responsive */
+.image-link {
+  display: block;
+  width: 100%;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .2s ease;
+  opacity:1;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.pic-container:hover .overlay {
+  opacity: 0;
+}
+
+.img-group {
+  position: relative;
+
+}
+        
+.img-tip {
+  position: absolute;
+  bottom: 0;
+  background: #333;
+  color: #fff;
+  opacity: 0.6;
+  display: none;
+  transition: .5s ease;
+  padding: 20px;
+
+}
+        
+.img-group:hover .img-tip {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+
