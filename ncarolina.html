@@ -50,28 +50,69 @@
               </nav>
         </div>   
         
-        
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-touch="false" data-bs-interval="false">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="media/image/Home/1DSC09765-11.jpg" class="d-block w-100" alt="...">
-            </div>  
-            <div class="carousel-item">
-              <img src="media/image/Home/DSC07633-2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+        <!--
+        <div style="text-align:center">
+          <h2>Tabbed Image Gallery</h2>
+          <p>Click on the images below:</p>
         </div>
+        
+        <!-- The four columns -->
+        <!--------------------------------------<div class="row">
+          <div class="column">
+            <img src="media/image/Gallery/NC/DSC09082_cover.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="media/image/Gallery/NC/DSC09162.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img_mountains.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img_lights.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+          </div>
+        </div>
+        
+        <div class="container">
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+          <img id="expandedImg" style="width:100%">
+          <div id="imgtext"></div>
+        </div>------------------------------------------Tab Gallery with JS------->
+
+
+        <div class="grib-row">
+          <div class="grib-column">
+            <img src="media/image/Gallery/NC/DSC09082_cover.jpg">
+            <img src="media/image/Gallery/NC/DSC09114.jpg">
+
+
+
+          </div>
+          <div class="grib-column">
+            <img src="media/image/Gallery/NC/DSC09002.jpg">
+            <img src="media/image/Gallery/NC/DSC09162.jpg">
+
+
+          </div>
+          <div class="grib-column">
+            <img src="media/image/Gallery/NC/DSC08969.jpg">
+            <img src="media/image/Gallery/NC/DSC09122.jpg">
+          </div>
+          <div class="grib-column">
+            <img src="media/image/Gallery/NC/DSC09120.jpg">
+            <img src="media/image/Gallery/NC/DSC08954.jpg">
+          </div>
+        </div>
+
+        <div class="col-9 ms-5">
+          <div>
+            <h2 class="content mt-3 mb-3"><b>Carnivorus Plants of the Long-leafed Pine Forest</b></h2>
+
+            <p class="content">May 2023, a year after the wildfire in Green Swamp Preserve.</p>
+
+            <p class="content">I visited North Carolina and photograph these carnivorous plants. The longleaf pine trees have resins that highly flammable, so frequent wildfires have become one of the characteristics of the longleaf pine savanna habitat. The process of evolution have brought some species with unique mechanisms that allow them to nirvana in the flames and obtain nitrogen outside of poor soils. This area is also known as the only habitat for Venus flytraps.
+        </div>
+      </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
